@@ -1,0 +1,31 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PixelPulse | Image Search</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="container">
+    <h1>PixelPulse</h1>
+    <p>Discover amazing images from Wikimedia Commons.</p>
+
+    <form id="search-form">
+      <input
+        type="text"
+        id="search-input"
+        placeholder="Search images..."
+        aria-label="Search images"
+      >
+      <button type="submit">Search</button>
+    </form>
+
+    <p id="result-count" aria-live="polite"></p>
+    <section id="results" class="results"></section>
+  </main>
+</body>
+</html>
+```
